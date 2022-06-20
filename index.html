@@ -254,7 +254,7 @@
         html2canvas(document.querySelector("#imageDiv")).then(function(canvas){
             var myImage = canvas.toDataURL();
             var link = document.createElement('a');
-            link.download = 'msbread.png';
+            link.download = 'maple_seals.png';
             link.href = myImage;
             document.body.appendChild(link);
             link.click();
